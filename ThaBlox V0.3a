@@ -1,0 +1,29 @@
+print("\033[93m", end="")
+
+print("ThaBlox V0.3alpha")
+print("    ")
+print("Welcome to Thablox!")
+print("    ")
+print("natural disaster (play)")
+print("    ")
+print("Sword fight (play)")
+print("    ")
+print("Test world (play)")
+print("    ")
+print("Dance (play)")
+
+while True:
+    print("\033[92m[1] avatar\033[0m")
+
+    opcion = input("> ")
+
+    if opcion == "1":
+        print("=== AVATAR ===")
+        print("Avatar 1: Humano")
+        print("Avatar 2: Animal")
+        print("Avatar 3: Robot")
+
+        volver = input("[0] Volver: ")
+
+        if volver == "0":
+            continue
