@@ -1,0 +1,11 @@
+print("\033[93m", end="")
+
+print("ThaBlox V0.2.Test")
+print("    ")
+print("Welcome to Thablox!")
+print("    ")
+print("natural disaster (play)")
+print("Sword fight (play)")
+print("Test world (play)")
+while True:
+	pass
